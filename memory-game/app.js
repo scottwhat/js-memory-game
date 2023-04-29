@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     var cardsWon = []
 
     let restartBtn = document.getElementById('btn-restart')
-    restartBtn.addEventListener(onclick, createBoard)
+    //restartBtn.addEventListener(onclick, createBoard)
 
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++) {
